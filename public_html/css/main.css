@@ -1,0 +1,85 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.nav>li>a{
+    color: silver;
+}
+
+.scienceImg {
+    background-image: url('../img/starLogo.jpg');
+    height: 300px;
+    width: 100%;
+    position: relative;
+    margin: 0px auto;
+    background-color: #AAA;
+    background-position: center center;
+    background-size: 100% auto;
+    background-repeat: repeat;
+}
+
+#scienceText {
+    color: white;
+font-family: 'serif';
+font-weight: 300;
+text-transform: uppercase;
+padding-top: 115px;
+font-size: 50px;
+letter-spacing: 7px;
+text-shadow: 0 0 10px white;
+text-align: center;
+-webkit-text-stroke: 1px #FFF;
+}
+
+.scienceNav {
+    background-color: rgba(242,242,242,0.85);
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.scienceNav ul {
+    text-align: justify;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0px 5px 
+}
+
+.scienceNav li {
+    float: left;
+    width: 15%;       
+    margin: 6px 0 0 12px;
+    padding: 3px 3px;   
+    display: inline-block;
+}   
+
+.scienceNav li a {
+    display: inline-block;
+    text-align: center;
+    margin: 0 6px 0 0;
+    padding: 0 20px;
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+}
+.scienceContent {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.scienceHead {
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+
+a:link {text-decoration: none;} //the original link with no underline
+a:visited {text-decoration: none;} //the visited link with no underline
+a:hover {text-decoration: none; color: white;} //mouseover link and an underline appears
+
+
+
+
+
+
+
