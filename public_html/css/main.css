@@ -63,6 +63,9 @@ text-align: center;
     background-color: transparent;
     color: black;
 }
+.activeScienceNav {
+    font-weight: 700;
+}
 .scienceContent {
     margin-bottom: 30px;
     margin-top: 30px;
@@ -72,7 +75,45 @@ text-align: center;
     font-weight: 200;
     margin-bottom: 40px;
 }
+.black-staff {  
+background: #000;
+position: absolute;
+left: 0;
+height: 226px;
+width: 43%;
+}
+.subjectText {
+    position: relative;
+    margin-top: 5%;  
+    text-align: center;
+}
+.centered 
+{
+    display: inline-block;
+    text-align: center;
+}
+.teacherImage {
+    width: 290px;
+    height: 230px;
+}
+.staff {
+    background-color: black;
+    color: white;
+}
+.teacher-name {
+    color: #333;
+    font-size: 25px;
+}
+.close-expanded-content {
+   padding-bottom: 20px;
+}
 
+.open-expanded-content {
+   padding-bottom: 20px;
+}
+.section-spacer {
+    margin: 25px 25px;
+}
 a:link {text-decoration: none;} //the original link with no underline
 a:visited {text-decoration: none;} //the visited link with no underline
 a:hover {text-decoration: none; color: white;} //mouseover link and an underline appears
