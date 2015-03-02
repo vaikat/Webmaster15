@@ -1,12 +1,26 @@
     //Code inspired by design from the website for Baskgilimeno
-    //inits the content to be closed
+    //inits the content to be closed, this is the ready function
     $(function() {
                 $(".open-expanded-content").slideDown();
 		$(".open-expand-horizontal").slideDown();
                 $(".expanded-content").slideUp();
                 $(".close-expanded-content").slideUp();
+                $(".staffContent").hide();
     });
-     
+    //shows the staff content when pressed
+     $("body").on("click", ".showStaffContent",  function(e) {
+         e.preventDefault();
+         e.stopPropagation();
+         $(".staffContent").show(500);
+         $(".contentSelect").hide(500);
+     });
+     //hides the staff content when pressed
+     $("body").on("click", ".hideStaffContent",  function(e) {
+         e.preventDefault();
+         e.stopPropagation();
+         $(".staffContent").hide(500);
+         $(".contentSelect").show(500);
+     });
      //Opens content when clicked
     $("body").on("click", ".open-expanded-content",  function(e) {
         e.preventDefault();

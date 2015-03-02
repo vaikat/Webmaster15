@@ -69,6 +69,7 @@ text-align: center;
 .scienceContent {
     margin-bottom: 30px;
     margin-top: 30px;
+    width: 50%;
 }
 .scienceHead {
     text-align: center;
@@ -86,6 +87,9 @@ width: 43%;
     position: relative;
     margin-top: 5%;  
     text-align: center;
+}
+.subjectText a h2:hover {
+    font-weight: 800;
 }
 .centered 
 {
@@ -114,13 +118,38 @@ width: 43%;
 .section-spacer {
     margin: 25px 25px;
 }
-a:link {text-decoration: none;} //the original link with no underline
+.scienceSection {
+    color: white;   
+    position: relative;
+    text-align: center;
+    height: 200px;
+}
+.scienceStaffSection {
+    background-color: black;
+}
+.scienceSectionText  {
+    margin-top: 57px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.staff:hover {
+    font-weight: 800;
+}
+.scienceSectionText:hover {
+    font-weight: 800;
+}
+.scienceCoursesSection{
+    background-color: #999999
+}
+.scienceStudentSection{
+    background-color: #B0C4DE
+}
+.bio {
+    margin-left: 1px;
+}
+
+a:link {text-decoration: none; color:white;} //the original link with no underline
 a:visited {text-decoration: none;} //the visited link with no underline
-a:hover {text-decoration: none; color: white;} //mouseover link and an underline appears
-
-
-
-
-
-
-
+a:hover {text-decoration: none; font-weight: 800; } //mouseover link and an underline appears
