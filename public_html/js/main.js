@@ -6,6 +6,7 @@
                 $(".expanded-content").slideUp();
                 $(".close-expanded-content").slideUp();
                 $(".staffContent").hide();
+                $(".courseContent").hide();
     });
     //shows the staff content when pressed
      $("body").on("click", ".showStaffContent",  function(e) {
@@ -69,5 +70,19 @@
     }
         $(this).parent().find(".expanded-content").slideToggle();
     });
-    
-    
+    //Shows the courses when the selector is pressed. 
+    $("body").on("click", ".showCourseContent",  function(e) {
+         e.preventDefault();
+         e.stopPropagation();
+         $(".courseContent").show(500);
+         $(".contentSelect").hide(500);
+     });
+     //Hides the course content when the selector is pressed. 
+     $("body").on("click", ".hideCourseContent",  function(e) {
+         e.preventDefault();
+         e.stopPropagation();
+         $(".courseContent").hide(500);
+         $(".contentSelect").show(500);
+     });
+     //Moves to bio research one
+    //Shows the courses when the selector is pressed. 

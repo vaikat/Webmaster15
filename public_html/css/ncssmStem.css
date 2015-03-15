@@ -1,0 +1,344 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+//All the code for adjusting the screens on the courses page. Used a css editor so it looks really bad whoops. Inspired by code from wearemotto.
+.latest-panel .prtfl-item,.latest-panel .post-item{position:absolute;width:100%;height:100%;top:0;left:0;}
+.post-item.even,.post-item.even .post-overlay{background-color:rgba(241,241,241,1);}
+.inner-post .subject{display:inline-block;width:30px;height:2px;background-color:#afaeae;margin:0 10px;vertical-align:middle;}.post-item:hover .subject{background-color:#FFF;}
+.post-item:hover .inner-post .school,.post-item:hover .inner-post .post-title,.post-item:hover .inner-post .post-title a,.post-item:hover .inner-post footer a{color:#FFF;}.inner-post footer{position:absolute;bottom:55px;}.inner-post footer a{display:inline-block;padding:7px 13px;color:#afaeae}.post-item:hover .inner-post footer a{background-color:#fff85f;color:#000;}.inner-post .school,.inner-post footer a{display:block;font-family:'Lekton','Lato',sans-serif;font-size:13px;color:#afaeae;margin-bottom:35px;margin-left:0;-webkit-transition:margin-left 0.333s cubic-bezier(0.230,1.000,0.320,1.000);-moz-transition:margin-left 0.333s cubic-bezier(0.230,1.000,0.320,1.000);-ms-transition:margin-left 0.333s cubic-bezier(0.230,1.000,0.320,1.000);-o-transition:margin-left 0.333s cubic-bezier(0.230,1.000,0.320,1.000);transition:margin-left 0.333s cubic-bezier(0.230,1.000,0.320,1.000);}.post-item .inner-post footer a:hover{margin-left:3px;}.inner-post .post-title{font-family:'Open Sans','Lato','HelveticaNeue',helvetica,arial,sans-serif;font-size:21px;line-height:30px;color:#4f4f4f;}
+.inner-post{position:relative;width:100%;height:100%;padding:10%;z-index:1000;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+@page{margin:0.5cm;} royalSlider.tabs .rsTabs{background:#fff!important;bottom:0;color:#000;list-style:none outside none;position:absolute;width:100%;height:45px;padding-top:15px;}.royalSlider.tabs .rsTab{padding:0;cursor:pointer;font-size:17px;line-height:17px;position:relative;background:transparent!important;border:none!important;list-style:none!important;margin:0 15px!important;box-shadow:none!important;text-shadow:none!important;}.royalSlider.tabs .rsTab.rsNavSelected{font-weight:700;color:#000;}.latest-panel .prtfl-item,.latest-panel .post-item{position:absolute;width:100%;height:100%;top:0;left:0;}
+.post-item.odd,.post-item.odd .post-overlay{background-color:rgba(230,230,230,1);}.post-item:hover .post-overlay{top:10px;right:10px;bottom:10px;left:10px;background:rgba(0,0,0,0.3);}
+single-post .post-body h2{color:#000;}.logo{left:8%;margin-left:-70px;top:15px;}.footer{min-height:75px;}
+.post-item.odd .post-overlay,.post-item.even .post-overlay{background-color:rgba(21,21,23,0.8)!important;}
+.inner-post .post-title{color:#f4f4f4!important;}
+.secondary-typeface{font-family:'Crimson Text',Times,serif;font-style:italic;}a,a:visited{color:inherit;text-decoration:none;cursor:pointer;outline:none;-webkit-transition:color 0.2s ease-out;-moz-transition:color 0.2s ease-out;-ms-transition:color 0.2s ease-out;-o-transition:color 0.2s ease-out;transition:color 0.2s ease-out;}
+.post-overlay{padding:15px;position:absolute;top:0;right:0;bottom:0;left:0;z-index:10;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;-webkit-transition:all 0.333s cubic-bezier(0.230,1.000,0.320,1.000);-moz-transition:all 0.333s cubic-bezier(0.230,1.000,0.320,1.000);-o-transition:all 0.333s cubic-bezier(0.230,1.000,0.320,1.000);transition:all 0.333s cubic-bezier(0.230,1.000,0.320,1.000);}
+.panel{position:relative;display:block;float:left;margin:0;padding:0;overflow:hidden;}.panel img{display:block;width:auto;border:0;-ms-interpolation-mode:bicubic;}
+div[data-size="1-0"]{width:25%;height:auto;}div[data-size="2-0"]{width:50%;height:auto;}div[data-size="3-0"]{width:75%;height:auto;}div[data-size="4-0"]{width:100%;height:auto;}div[data-size="1-0"],div[data-size="2-0"],div[data-size="3-0"],div[data-size="4-0"]{height:auto;padding:0!important;}div[data-size="1-1"]{width:25%;height:480px;}div[data-size="1-2"]{width:25%;height:960px;}div[data-size="1-3"]{width:25%;height:1440px;}div[data-size="1-4"]{width:25%;}div[data-size="2-1"]{width:50%;height:480px;}div[data-size="2-2"]{width:50%;height:960px;}div[data-size="2-3"]{width:50%;height:1440px;}div[data-size="2-4"]{width:50%;}div[data-size="3-1"]{width:75%;height:480px;}div[data-size="3-2"]{width:75%;height:960px;}div[data-size="3-3"]{width:75%;height:1440px;}div[data-size="3-4"]{width:75%;}div[data-size="4-1"]{width:100%;height:480px;}div[data-size="4-2"]{width:100%;height:960px;}div[data-size="4-3"]{width:100%;height:1440px;}div[data-size="4-4"]{width:100%;}
+div[data-size="1-1"],div[data-size="1-2"],div[data-size="1-3"],div[data-size="1-4"],div[data-size="2-1"],div[data-size="2-2"],div[data-size="2-3"],div[data-size="2-4"],.project-stream{margin:0;padding:0;border:0;outline:0;}.panel{background-color:#101010;color:#FFF;}
+//Changing for screen size.
+@media screen and (max-width:59.9999em) {#r-960{display:block;}.compact-menu .main-d-nav ul li a{font-size:23px;}
+body.single-product .product-content{width:100%;float:none;}body.logged-in #lobo-reviews .form p.comment-form-rating,body #lobo-reviews .form p.comment-form-rating,body #lobo-reviews .form .comment-form-comment{width:100%!important;}body #lobo-reviews .form-submit{left:initial;right:106px;}body .rating-word{width:40%;}}@media screen and (min-width:30em) and (max-width:59.9999em) {.full-col{width:100%;}.one-half{width:48%;}.one-third{width:30.66%;}.two-third{width:65.33%;}.one-fourth{width:22%;}.three-fourth{width:74%;}.one-fifth{width:16.8%;}.two-fifth{width:37.6%;}.three-fifth{width:58.4%;}.four-fifth{width:67.2%;}.one-sixth{width:13.33%;}.five-sixth{width:82.67%;}.one-half,.one-third,.two-third,.three-fourth,.one-fourth,.one-fifth,.two-fifth,.three-fifth,.four-fifth,.one-sixth,.five-sixth{position:relative;margin-right:0;float:none;}div[data-size="1-1"],div[data-size="1-2"],div[data-size="1-3"],div[data-size="1-4"]{width:50%;}div[data-size="2-1"],div[data-size="2-2"],div[data-size="2-3"],div[data-size="2-4"]{width:100%;}div[data-size="3-1"],div[data-size="3-2"],div[data-size="3-3"],div[data-size="3-4"]{width:100%;}div[data-size="4-1"],div[data-size="4-2"],div[data-size="4-3"],div[data-size="4-4"]{width:100%;}body [data-cols="cols-3"] .prtfl-item,body [data-cols="cols-4"] .prtfl-item{width:50%!important;}.group-panel{position:relative;width:100%;}.posts-stream[data-cols="3"] .post-item,.posts-stream[data-cols="4"] .post-item,.posts-stream[data-cols="5"] .post-item{width:50%;height:480px;}
+
+    color: silver;
+}
+
+.scienceImg {
+    background-image: url('../img/starLogo.jpg');
+    height: 300px;
+    width: 100%;
+    position: relative;
+    margin: 0px auto;
+    background-color: #AAA;
+    background-position: center center;
+    background-size: 100% auto;
+    background-repeat: repeat;
+}
+
+#scienceText {
+    color: white;
+font-family: 'serif';
+font-weight: 300;
+text-transform: uppercase;
+padding-top: 115px;
+font-size: 50px;
+letter-spacing: 7px;
+text-shadow: 0 0 10px white;
+text-align: center;
+-webkit-text-stroke: 1px #FFF;
+}
+
+.scienceNav {
+    background-color: rgba(242,242,242,0.85);
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.scienceNav ul {
+    text-align: justify;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0px 5px 
+}
+
+.scienceNav li {
+    float: left;
+    width: 15%;       
+    margin: 6px 0 0 12px;
+    padding: 3px 3px;   
+    display: inline-block;
+}   
+
+.scienceNav li a {
+    display: inline-block;
+    text-align: center;
+    margin: 0 6px 0 0;
+    padding: 0 20px;
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+}
+.activeScienceNav {
+    font-weight: 600;
+}
+.scienceContent {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 50%;
+}
+.scienceHead {
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+.black-staff {  
+background: #000;
+position: absolute;
+left: 0;
+height: 226px;
+width: 43%;
+}
+.subjectText {
+    position: relative;
+    margin-top: 5%;  
+    text-align: center;
+}
+.subjectText a h2:hover {
+    font-weight: 800;
+}
+.centered 
+{
+    display: inline-block;
+    text-align: center;
+}
+.teacherImage {
+    width: 290px;
+    height: 226px;
+}
+
+.teacher-name {
+    color: #333;
+    font-size: 25px;
+}
+.teacher-name-bug {
+    color: #333;
+    font-size: 25px;
+}
+.close-expanded-content {
+   padding-bottom: 20px;
+}
+
+.open-expanded-content {
+   padding-bottom: 20px;
+}
+.section-spacer {
+    margin: 25px 25px;
+}
+.research-section-spacer {
+    margin: 75px 75px;
+}
+.scienceSection {
+    color: white;   
+    position: relative;
+    text-align: center;
+    height: 90vh;
+}
+.scienceStaffSection {
+    background-color: black;
+}
+.scienceSectionText  {
+    margin-top: 40vh;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.staff:hover {
+    font-weight: 800;
+}
+.scienceSectionText:hover {
+    font-weight: 800;
+}
+.scienceCoursesSection{
+    background-color: #999999
+}
+.scienceStudentSection{
+    background-color: #B0C4DE
+}
+.bio {
+    margin-left: 1px;
+}
+.exit-staff {  
+background: #000;
+position: absolute;
+text-align: center;
+right: 0;
+margin-left: 0;
+height: 226px;
+width: 29%;
+}
+
+ul.nav.nav-pills {
+  color: white;
+}
+ul.nav.nav-pills li:hover {
+  background-color: blue;
+}
+.open-expanded-content {
+  color: #1919FF !important;
+}
+.close-expanded-content {
+  color: #1919FF !important;
+}
+
+
+    
+a:link {text-decoration: none; color:white;} //the original link with no underline
+a:visited {text-decoration: none;} //the visited link with no underline
+a:hover {text-decoration: none; font-weight: 800; } //mouseover link and an underline appears
+//changes the nav bars. Second one has to be there twice to work?.
+.nav>li>a:hover, .nav>li>a:focus {
+  text-decoration: none;
+  background-color: #337ab7;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+  text-decoration: none;
+  background-color: #337ab7;
+}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+  background-color: #337ab7;
+}
+
+//Code for student content
+#bioResearchRowTwo p{color: black}
+.row#bioResearchRowOne{background: url('../img/Cell.jpg'); background-repeat: no-repeat; width: 100%; background-size: cover;}
+.row#bioResearchRowOne h1{color: aliceblue;}
+.row#bioResearchRowTwo {background: url('../img/flowerFly.jpg'); width: 100%;  background-repeat: no-repeat;  background-size:cover;}
+.row#bioResearchRowTwo .textcolumn {float:right;}
+.row#insidebioResearchRowTwo {padding:80px 0;}
+.row#insidebioResearchRowTwo img {float:left; margin-left:-100px; margin-bottom:-80px;}
+.row#bioResearchRowThree {background: url('../img/Membrane.jpg'); width: 100%; background-repeat: no-repeat;  background-size:cover;}
+.row#bioResearchRowThree .textcolumn {float:right;}
+.studentRow {width:1000px; margin:0 auto; position: relative; padding:200px 0;}
+.textcolumn h1 {font-size:20px; color: aliceblue;}
+.textcolumn p {font-size:20px; font-weight: 400; color: white;}
+
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+
+
+
+body {-webkit-font-smoothing: antialiased; font-family: "ff-din-web", sans-serif;}
+p {font-family:"garamond-premier-pro"; font-size:18px;}
+
+
+
+
+
+.researchHeader {background:rgba(0,0,0,.5); text-align:center; padding:35px 0;position:fixed; box-sizing:border-box; width:100%; z-index: 1000;}
+.researchHeader .loginbutton {position:absolute; top:0; right:20px;border:1px solid #fff; border-top:none; padding:7px 20px; font-size:12px; text-transform:uppercase; letter-spacing:2px; color:#fff;}
+.researchHeader .loginbutton:hover {background:#000;}
+.researchHeader ul li {display:inline-block; font-size:18px; text-transform:uppercase; letter-spacing:2px;}
+.researchHeader ul li a {color:#fff; padding:0 10px}
+.researchHeader ul li a:hover {color: #ccc;}
+
+.researchHeader.active {background:rgba(0,0,0,.8)}
+.researchHeader.active .logo {display:inline-block; padding:0px; padding-right:30px;}
+.researchHeader.active ul {display:inline-block;}
+
+
+
+.row#toprow {background:url(../img/Nature.jpg) center top no-repeat; background-size:cover; padding:280px 0 100px; position: relative; height: 45vh; width: 100%;}
+.row#toprow .screenshot {width:560px; height: 100vh;  float:right; padding-left:50px;}
+.row#toprow h1 {font-size:66px; line-height:65px; color:#fff; padding:30px 0 20px;}
+.row#toprow p {color:#fff; padding-bottom:20px; width:300px;}
+.row#toprow .scrollnotice {font-size:10px; text-transform:uppercase; letter-spacing: 2px; position:absolute; bottom:20px; left:50%; transform:translateX(-50%); -webkit-transform:translateX(-50%); color: #fff;}
+
+.insidetop#toprow {padding:230px 0 60px;}
+
+
+.textcolumn {width:430px; float:left; position: relative; z-index: 900; margin-left: 30px; margin-right: 30px;}
+
+
+.row#playerdevelopment .textcolumn {float:none; position:relative; left:50%; transform:translateX(-50%); text-align:center; }
+.row#playerdevelopment .textcolumn .graybutton {margin:0 auto;}
+
+.row#getstarted {padding:70px; background:#000; text-align:center; background:url(../images/bg-golf.jpg) center top no-repeat; background-size:cover;}
+.row#getstarted h1 {color:#fff; display:inline-block; position: relative; top:10px; padding-right:20px;}
+.row#getstarted .greenbutton {display:inline-block;}
+
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+
+
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+}
+header ul li a {
+  color: #fff !important;
+  padding: 0 10px;
+}
+
+.researchTopRowText {
+    font-weight: 300;
+    font-size: 30px;
+    color: white; 
+    z-index: 1000;
+    text-align: center;
+}
+.content-text 
+{
+    font-family: "ff-din-web", sans-serif;
+    font-size: 14px;
+}
+#journal {
+  width: 100%;
+  height: 80vh;
+}
+.bioStaff
+{
+    background: url('../img/BioStaff.jpg') no-repeat;
+}
+.bioCourse {
+    background: url('../img/DNA.jpg') no-repeat;
+}
+.chemStaff
+{
+    background: url('../img/chemStaff.jpg') no-repeat;
+}
+.chemCourses
+{
+    background: url('../img/chemCourses.jpg') no-repeat;
+}
+
+.engCourses {
+    background: url('../img/engCourses.jpg') no-repeat;
+}
+.engStaff {
+    background: url('../img/engStaff.jpg') no-repeat;
+}
+.mathCourses {
+    background: url('../img/mathCourses.jpg') no-repeat;
+}
+.mathStaff {
+    background: url('../img/mathStaff.jpg') no-repeat;
+}
+.physCourses {
+    background: url('../img/physCourses.jpg') no-repeat;
+}
+.physStaff {
+    background: url('../img/physStaff.jpg') no-repeat;
+}
+.post-header p
+{
+    font-size: 14px;
+}
