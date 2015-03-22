@@ -154,6 +154,7 @@ width: 43%;
     text-align: center;
     color: white;
     text-decoration: none;
+    font-weight: 400;
 }
 
 .staff:hover {
@@ -181,18 +182,7 @@ height: 226px;
 width: 29%;
 }
 
-ul.nav.nav-pills {
-  color: white;
-}
-ul.nav.nav-pills li:hover {
-  background-color: blue;
-}
-.open-expanded-content {
-  color: #1919FF !important;
-}
-.close-expanded-content {
-  color: #1919FF !important;
-}
+
 
 
     
@@ -200,17 +190,7 @@ a:link {text-decoration: none; color:white;} //the original link with no underli
 a:visited {text-decoration: none;} //the visited link with no underline
 a:hover {text-decoration: none; font-weight: 800; } //mouseover link and an underline appears
 //changes the nav bars. Second one has to be there twice to work?.
-.nav>li>a:hover, .nav>li>a:focus {
-  text-decoration: none;
-  background-color: #337ab7;
-}
-.nav>li>a:hover, .nav>li>a:focus {
-  text-decoration: none;
-  background-color: #337ab7;
-}
-.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
-  background-color: #337ab7;
-}
+
 
 //Code for student content
 #bioResearchRowTwo p{color: black}
@@ -278,11 +258,7 @@ p {font-family:"garamond-premier-pro"; font-size:18px;}
 
 
 
-body {    
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow-x: hidden;
-}
+
 header ul li a {
   color: #fff !important;
   padding: 0 10px;
@@ -307,33 +283,43 @@ header ul li a {
 .bioStaff
 {
     background: url('../img/BioStaff.jpg') no-repeat;
+    background-size: 100% 100%;
 }
 .bioCourse {
     background: url('../img/DNA.jpg') no-repeat;
+    background-size: 100% 100%;
 }
 .chemStaff
 {
     background: url('../img/chemStaff.jpg') no-repeat;
+    background-size: 100% 100%;
 }
 .chemCourses
 {
     background: url('../img/chemCourses.jpg') no-repeat;
+    background-size: 100% 100%;
+    
 }
 
 .engCourses {
     background: url('../img/engCourses.jpg') no-repeat;
+    background-size: 100% 100%;
 }
 .engStaff {
     background: url('../img/engStaff.jpg') no-repeat;
+    background-size: 100% 100%;
 }
 .mathCourses {
     background: url('../img/mathCourses.jpg') no-repeat;
+    background-size: 100% 100%;
 }
 .mathStaff {
     background: url('../img/mathStaff.jpg') no-repeat;
+    background-size: 100% 100%;
 }
 .physCourses {
     background: url('../img/physCourses.jpg') no-repeat;
+    background-size: 100% 100%;
 }
 .physStaff {
     background: url('../img/physStaff.jpg') no-repeat;
@@ -342,3 +328,5 @@ header ul li a {
 {
     font-size: 14px;
 }
+
+a:hover {text-decoration: none; font-weight: 800; } //mouseover link and an underline appears

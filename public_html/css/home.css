@@ -1,0 +1,195 @@
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+h1.header-title {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  font-weight: 200;
+  font-size: 67px;
+  text-transform: uppercase;
+}
+h1.header-title small {
+  font-size: 40%;
+  text-transform: none;
+}
+.container {
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 30px;
+}
+@media (min-width: 1180px) {
+  .container {
+    width: 1170px;
+    padding: 0;
+  }
+}
+@media (max-width: 1180px) {
+  .container {
+    width: 980px;
+    padding: 0;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    width: 680px;
+    padding: 0;
+  }
+}
+@media (max-width: 700px) {
+  .container {
+    width: auto;
+  }
+}
+.title {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+nav {
+  background: #000;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 60px;
+  line-height: 60px;
+  z-index: 998;
+}
+nav ul {
+  margin: 0;
+  position: relative;
+}
+nav li {
+  display: inline;
+  float: right;
+  margin: 0;
+  line-height: 60px;
+  height: 60px;
+}
+nav li:first-child {
+  float: left;
+  text-transform: uppercase;
+}
+nav li:first-child a {
+  color: #fff;
+}
+nav li:first-child a:hover,
+nav li:first-child a:active {
+  text-decoration: none;
+}
+nav a,
+nav span {
+  color: #ccc;
+  padding: 0 15px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  margin: 0;
+}
+nav a:hover,
+nav span:hover,
+nav a:active,
+nav span:active {
+  text-decoration: underline;
+  color: #fff;
+}
+nav a.menu-item,
+nav span.menu-item {
+  display: none;
+}
+nav a.active,
+nav span.active {
+  color: #fff;
+}
+nav a:nth-child(2),
+nav span:nth-child(2) {
+  padding-right: 0;
+}
+nav span {
+  color: #fff;
+}
+nav span:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.mobile-nav {
+  background: #000;
+  position: fixed;
+  z-index: 999;
+  width: 50%;
+  height: 100%;
+  display: none;
+}
+.mobile-nav a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: lowercase;
+  padding: 15px;
+}
+.mobile-nav a:first-child {
+  color: #fff;
+  text-transform: uppercase;
+}
+.mobile-nav a:hover,
+.mobile-nav a:active {
+  text-decoration: underline;
+  color: #fff;
+}
+.mobile-nav a:hover:first-child,
+.mobile-nav a:active:first-child {
+  text-decoration: none;
+}
+@media (min-width: 730px) {
+  nav a.menu-item {
+    display: inline;
+  }
+  nav span {
+    display: none;
+  }
+}
+.top-header,
+canvas {
+  width: 100% !important;
+}
+header {
+  background: url('../img/demo-1-bg.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+a h1:hover {
+  font-weight: 500;
+}
+.exploreText 
+{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  top: 90%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  font-weight: 500;
+  font-size: 18px;
+}
+* {
+  font-family: 'Raleway', Calibri, Arial, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}

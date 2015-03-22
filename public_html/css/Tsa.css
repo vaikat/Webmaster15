@@ -1,0 +1,116 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 21, 2015, 1:02:43 AM
+    Author     : Andrew
+*/
+.padding-top{padding-top:121px}
+.padding-bottom{padding-bottom:80px}
+.tsaRow {
+    overflow: auto;
+    position: relative;
+    width: 100%;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+    overflow: hidden;
+    min-height: 100vh;
+    color: #ffffff;
+    position: relative;
+    font: 400 16px Tisa,Helvetica-Neue,Helvetica,sans-serif;
+}
+.align-center {
+  text-align: center;
+}
+.tsaRow div p {
+    font-size: 2em;
+    font-weight: 100;
+}
+.sectionHead {
+    padding-bottom: 15px;
+}
+p.subheading {
+    font-family:Geogrotesque,Helvetica-Neue,Helvetica,sans-serif;
+    opacity: .5;
+    font-weight: 700;
+    font-size: 1.07em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: -.2em;
+}
+
+.padding-medium
+{
+    padding-left: 100px;
+    padding-right:44px;
+    padding-top: 5vh;
+}
+.tsaInfo
+{
+    font-size: .6em;
+}
+.motto 
+{
+    font-size: .6em;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    margin-top: 10vh;
+}
+.compText {
+    padding-top: 10px;
+    font-size: 1.2em;
+}
+
+.navbar-fixed-top {
+    position: relative;
+    margin-bottom: 0;
+}
+.leftRow 
+{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-image: url(../img/leftOurChapter.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.rightRow 
+{
+    position: absolute;
+    height: 100%;
+    padding-left: 10px;
+    width: 50%;
+     background-image: url(../img/rightOurChapter.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.align-right {
+    text-align: right;
+}
+.padding-left
+{
+    margin-left: 20px !important;
+}
+ @media screen and (min-width: 1050px){
+.lastOfficer 
+{
+    padding-right: 5vh; 
+}
+ }
+ .pictureLeft
+ {
+    position: absolute;
+    margin-top: 1%;
+    margin-bottom: auto;
+    height: 85%;
+    padding-left: 10px;
+    width: 40%;
+     background-image: url(../img/midOurChapter.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+ }

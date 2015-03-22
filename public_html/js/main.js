@@ -1,4 +1,4 @@
-    //Code inspired by design from the website for Baskgilimeno
+
     //inits the content to be closed, this is the ready function
     $(function() {
                 $(".open-expanded-content").slideDown();

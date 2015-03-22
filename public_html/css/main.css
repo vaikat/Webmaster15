@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 21, 2015, 12:35:17 AM
+    Author     : Andrew
+*/
+
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+* {
+  font-family: 'Raleway', Calibri, Arial, sans-serif;
+}
+h1 {
+  font-weight: 700;
+  margin: 0;
+  margin-top: 27px;
+}
+li {
+  margin-bottom: 13.5px;
+}
+
+//nav code
+ul.nav.nav-pills {
+  color: white;
+}
+ul.nav.nav-pills li:hover {
+  background-color: blue;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+  text-decoration: none;
+  background-color: #337ab7;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+  text-decoration: none;
+  background-color: #337ab7;
+}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+  background-color: #337ab7;
+}
+ul.nav.nav-pills {
+  color: white;
+}
+ul.nav.nav-pills li:hover {
+  background-color: blue;
+}
+.open-expanded-content {
+  color: #1919FF !important;
+}
+.close-expanded-content {
+  color: #1919FF !important;
+}
+a:link {text-decoration: none; color:white;} //the original link with no underline
+a:visited {text-decoration: none;} //the visited link with no underline
+a:hover {text-decoration: none; font-weight: 800; } //mouseover link and an underline appears
+//changes the nav bars. Second one has to be there twice to work?.
+.nav>li>a:hover, .nav>li>a:focus {
+  text-decoration: none;
+  background-color: #337ab7;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+  text-decoration: none;
+  background-color: #337ab7;
+}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+  background-color: #337ab7;
+}
