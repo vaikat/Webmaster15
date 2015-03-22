@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../css/Tsa.css">
+        <link rel="stylesheet" href="../css/main.css">
+
+
+        <script src="../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head> 
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="headercontainer">
+            <ul class="nav nav-pills">
+                <li role="presentation" ><a href="../NCSSM STEM/Biology.html"">NCSSM STEM</a></li>
+                <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                  Design Brief <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                    <li role ="presentation"><a href="Design Brief/E-waste.html">E-waste</a>
+                    <li role ="presentation"><a href="Design Brief/Types.html">Types</a>
+					<li role ="presentation"><a href="Design Brief/Consequences.html">Consequences</a>
+					<li role ="presentation"><a href="Design Brief/Solution.html">Solution</a>
+
+					
+                </ul>
+              </li>
+              <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                    TSA <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li role ="presentation"><a href="TSA.html">National TSA</a>
+                    <li role ="presentation"><a href="Our Chapter.html">Our Chapter</a>
+                </ul>
+              </li>
+            </ul>
+        </div>
+        </nav>
+        <div class="row tsaRow" style="background-color: #262626">
+            <div class='row align-center sectionHead row-equal-columns padding-top'><h1>What is TSA?</h1></div>
+           <div class="row">
+            <div class="col-md-8 col-md-offset-2 padding-bottom">
+                <h3>E-Waste</h3>
+				<img src="http://www.greenpeace.org/international/Global/international/planet-2/image/2008/2/guiyu-ewaste.jpg" alt="Mountain View" style="width:304px;height:228px" align="left">
+				<p>E-Waste is defined as the disposal of electronics, such as cell phones, computers and televisions in the trash after they are no longer functioning. 
+				The improper disposal of e-waste a widespread issue as there are very harmful consequences to it due to the many different chemicals that lay inside of these electronics. 
+				The consequences are then magnified by the sheer size of waste that is produced. In the United States alone, over 41.1 million computers and nearly as many monitors were thrown away in 2007,
+				which each single unit posing a threat to the environment.</p>
+				<p> A large amount of this e-waste is sent to third world countries, who then recycle them in large recylcing sites. This whole issue is unfortunately one that is not of widespread knowledge and because 
+				of the this page was made to not only inform others of what exactly e-waste is, but to help inform people of what they can do to prevent the increase of improper creation and disposal of e-waste. Our hope
+				is that by spreading word of this prevalent issue, we can work together to move towards a word that reuses more, and finds ways to create less waste.</p> 				
+				<p> Pictured above, a large pile of e-waste sitting at a recycling site. This is commonly where the e-waste is dumped after being picked up, while it awaits processing.</p> 
+            </div>
+           </div>
+            <div class="row align-center motto">
+                The Motto <br/> Learning To Live In A Technical World
+            </div>
+        </div>  
+        
+        
+    </body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+        <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.1.js"><\/script>')</script>
+
+        <script src="../js/vendor/bootstrap.min.js"></script>
+
+        <script src="../js/main.js"></script>
+</html>
