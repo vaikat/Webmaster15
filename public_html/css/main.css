@@ -49,15 +49,15 @@ ul.nav.nav-pills {
 ul.nav.nav-pills li:hover {
   background-color: blue;
 }
-.nav>li>a:hover {
+.nav>li>a:hover, .nav>li>a:focus {
   text-decoration: none;
   background-color: #337ab7;
 }
-.nav>li>a:hover {
+.nav>li>a:hover, .nav>li>a:focus {
   text-decoration: none;
   background-color: #337ab7;
 }
-.nav .open>a, .nav .open>a:hover {
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
   background-color: #337ab7;
 }
 ul.nav.nav-pills {
@@ -76,9 +76,17 @@ a:link {text-decoration: none; color:white;} //the original link with no underli
 a:visited {text-decoration: none;} //the visited link with no underline
 a:hover {text-decoration: none; font-weight: 800; } //mouseover link and an underline appears
 //changes the nav bars. Second one has to be there twice to work?.
-
+.nav>li>a:hover, .nav>li>a:focus {
+  text-decoration: none;
+  background-color: #337ab7;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+  text-decoration: none;
+  background-color: #337ab7;
+}
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
   background-color: #337ab7;
 }
 
 a,a:visited{color:inherit;text-decoration:none;cursor:pointer;outline:none;-webkit-transition:color 0.2s ease-out;-moz-transition:color 0.2s ease-out;-ms-transition:color 0.2s ease-out;-o-transition:color 0.2s ease-out;transition:color 0.2s ease-out;}
+.scrollnotice {font-size:10px; text-transform:uppercase; letter-spacing: 2px; position:absolute; bottom:20px; left:50%; transform:translateX(-50%); -webkit-transform:translateX(-50%); color: #fff;}
