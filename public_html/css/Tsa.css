@@ -114,3 +114,33 @@ p.subheading {
      background-repeat: no-repeat;
      background-size: 100% 100%;
  }
+ .coverPicture
+ {
+     background-image: url(../img/ourTsaPic.png);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     position: absolute;
+     height: 100%;
+     width: 100%;
+ }
+ 
+.scrollNotice {font-size:12px; font-weight: 700; text-transform:uppercase; letter-spacing: 2px; position:absolute; bottom:20px; left:50%; transform:translateX(-50%); -webkit-transform:translateX(-50%); color: #fff;}
+.chapter-text 
+{
+    line-height: 2em;
+}
+
+.ourChapterPic {
+    width: 100%;
+    margin-left: 0;
+    height: 85vh;
+}
+.communityText {
+    text-align: right;
+}
+@media only screen and (max-width: 997px) {
+    .ourChapterPic {
+        margin-left: 22%;
+        width: 50%;
+    }
+}
